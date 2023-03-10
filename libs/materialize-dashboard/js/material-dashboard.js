@@ -195,53 +195,28 @@ function navbarFixed(el) {
   }
 };
 
+// Fixed Plugin Theme Mode (light/dark)
 
-
-// Fixed Plugin
-
-if (document.querySelector('.fixed-plugin')) {
-  var fixedPlugin = document.querySelector('.fixed-plugin');
-  var fixedPluginButton = document.querySelector('.fixed-plugin-button');
+if (document.querySelector('.fixed-plugin-theme-mode')) {
+  var fixedPluginButton = document.querySelector('.fixed-plugin-theme-mode');
   var fixedPluginBtnIcon = fixedPluginButton.querySelector('.material-icons')
   var fixedPluginCard = document.querySelector('.fixed-plugin .card');
-  // var fixedPluginCloseButton = document.querySelectorAll('.fixed-plugin-close-button');
-  var navbar = document.getElementById('navbarBlur');
-  var buttonNavbarFixed = document.getElementById('navbarFixed');
 
   if (fixedPluginButton) {
     fixedPluginButton.onclick = function() {
-      if (!fixedPlugin.classList.contains('show')) {
-        fixedPlugin.classList.add('show');
+      if (!fixedPluginButton.classList.contains('show')) {
+        fixedPluginButton.classList.add('show');
         sidebarType('bg-gradient-dark')
         darkMode(true);
-        fixedPluginBtnIcon.innerHTML = 'brightness_5'
+        fixedPluginBtnIcon.innerHTML = 'light_mode'
       } else {
-        fixedPlugin.classList.remove('show');
+        fixedPluginButton.classList.remove('show');
         sidebarType('bg-white')
         darkMode(false);
-        fixedPluginBtnIcon.innerHTML = 'brightness_3'
+        fixedPluginBtnIcon.innerHTML = 'dark_mode'
       }
     }
   }
-
-  // fixedPluginCloseButton.forEach(function(el) {
-  //   el.onclick = function() {
-  //     fixedPlugin.classList.remove('show');
-  //   }
-  // })
-
-  // document.querySelector('body').onclick = function(e) {
-  //   if (e.target != fixedPluginButton && e.target != fixedPluginButtonNav && e.target.closest('.fixed-plugin .card') != fixedPluginCard) {
-  //     fixedPlugin.classList.remove('show');
-  //   }
-  // }
-
-  if (navbar) {
-    if (navbar.getAttribute('data-scroll') == 'true' && buttonNavbarFixed) {
-      buttonNavbarFixed.setAttribute("checked", "true");
-    }
-  }
-
 }
 
 

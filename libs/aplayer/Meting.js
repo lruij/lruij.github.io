@@ -162,7 +162,7 @@ class MetingJSElement extends HTMLElement {
   }
 
   _loadPlayer(data) {
-    console.log('_loadPlayer', data);
+    // console.log('_loadPlayer', data);
     let defaultOption = {
       audio: data,
       mutex: true,

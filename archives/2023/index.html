@@ -1,37 +1,43 @@
 <!DOCTYPE html>
-<html lang="config.language">
-  <head>
+<html lang="zh-CN">
+
+ <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   
     <title>
       lruij&#39;s blog
     </title>
+    <link rel="shortcut icon" href="/image/favicon.ico" type="image/x-icon" />
     
-<link rel="stylesheet" href="/libs/materialize-dashboard/fonts/fonts.css">
+<link rel="stylesheet" href="/fonts/fonts.css">
 
 
       
-<link rel="stylesheet" href="/libs/materialize-dashboard/css/material-dashboard.css">
+<link rel="stylesheet" href="/css/material-dashboard.css">
 
         
 <script src="/libs/jquery/jquery-3.6.0.min.js"></script>
 
+
+          <script>
+      let isDark = localStorage.getItem('isDark') === '1';
+      let root = document.documentElement;
+      root.setAttribute('data-theme', isDark ? 'dark' : 'light');
+  </script>
+
 <meta name="generator" content="Hexo 6.3.0"></head>
 
 
-    <body class="g-sidenav-show bg-eyes">
-      <div id="container">
-        <div id="wrap">
-          <aside class="sidenav navbar navbar-vertical navbar-expand-xs border-0 border-radius-xl my-3 fixed-start ms-3 bg-white"
+  <body class="g-sidenav-show">
+    <aside class="sidenav navbar navbar-vertical navbar-expand-xs border-0 border-radius-xl my-3 fixed-start ms-3 shadow"
   id="sidenav-main">
-  <div class="sidenav-header">
+  <div class="sidenav-header mb-7">
     <i class="fas fa-times p-3 cursor-pointer text-dark opacity-5 position-absolute end-0 top-0 d-none d-xl-none"
       aria-hidden="true" id="iconSidenav"></i>
 
     <a class="navbar-brand m-0" href=" javascript:;">
       <div class="p-1 text-center">
-        <!-- <img src="/img/team-2.jpg" class="avatar avatar-lg" alt="main_logo"> -->
         
 <link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
 
@@ -57,46 +63,17 @@
   mutex="true"
   mini="true"
   server='netease'
-  id='1459343252'
+  id='1860212257'
 	>
 </meting-js>
 
-        <!-- 
-<link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
-
-  
-<script src="/libs/aplayer/APlayer.min.js"></script>
-
-    
-<script src="/libs/aplayer/Meting.js"></script>
-
-<style>
-  .music-container {
-    display: flex;
-    justify-content: center;
-  }
-  .aplayer {
-    border-radius: 50%;
-  }
-</style>
-<meting-js
-  class="music-container"
-  type="song"
-  autoplay="false"
-  mutex="true"
-  mini="true"
-  server='netease'
-  id='1459343252'
-	>
-</meting-js>
- -->
       </div>
-      <div class="font-weight-bold text-dark text-center pt-2 h6">
+      <div class="font-weight-bold text-dark text-center h6">
         lruij&#39;s blog
       </div>
     </a>
   </div>
-  <hr class="horizontal light mt-0 mb-2">
+  <!-- <hr class="horizontal light mt-0 mb-1"> -->
   <div class="collapse navbar-collapse  w-auto " id="sidenav-collapse-main">
   <ul class="navbar-nav">
     
@@ -115,7 +92,7 @@
       </li>
       
       <li class="nav-item">
-        <a class="nav-link text-dark " href="/tag">
+        <a class="nav-link text-dark " href="/tags">
             <div class="text-dark text-center me-2 d-flex align-items-center justify-content-center">
               <i class="material-icons opacity-10">
                 tag
@@ -128,7 +105,7 @@
       </li>
       
       <li class="nav-item">
-        <a class="nav-link text-dark active bg-gradient-faded-light " href="/category">
+        <a class="nav-link text-dark " href="/categories">
             <div class="text-dark text-center me-2 d-flex align-items-center justify-content-center">
               <i class="material-icons opacity-10">
                 category
@@ -141,7 +118,7 @@
       </li>
       
       <li class="nav-item">
-        <a class="nav-link text-dark " href="/archive">
+        <a class="nav-link text-dark active bg-gradient-faded-light " href="/archive">
             <div class="text-dark text-center me-2 d-flex align-items-center justify-content-center">
               <i class="material-icons opacity-10">
                 history
@@ -185,44 +162,52 @@
 </aside>
 
 
-            <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg ">
-              <!-- 顶部菜单 -->
-<nav class="navbar navbar-main fixed-top navbar-expand-lg px-0 mx-4 shadow-none border-radius-xl" id="navbarBlur"
+      <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg ">
+        <!-- 顶部菜单 -->
+<nav class="navbar navbar-main navbar-expand-lg position-sticky mt-4 top-1 px-0 mx-4 border-radius-xl z-index-sticky shadow-none" id="navbarBlur"
   data-scroll="true">
   <div class="container-fluid py-1 px-3">
     <nav aria-label="breadcrumb">
-      <!-- <ol class="breadcrumb bg-transparent mb-0 pb-0 pt-1 px-0 me-sm-6 me-5">
-        <li class="breadcrumb-item text-sm"><a class="opacity-5 text-dark" href="javascript:;">YOASOBI</a></li>
+      <ol class="breadcrumb bg-transparent mb-0 pb-0 pt-1 px-0 me-sm-6 me-5">
+        <li class="breadcrumb-item text-sm"><a class="opacity-5 text-dark" href="javascript:;">野生三十</a></li>
         <li class="breadcrumb-item text-sm active" aria-current="page">たぶん</li>
-      </ol> -->
+      </ol>
       <h6 class="mb-0">
         
-        Category
+        Archive
       </h6>
     </nav>
     <div class="collapse navbar-collapse mt-sm-0 mt-2 me-md-0 me-sm-4" id="navbar">
       <div class="ms-md-auto pe-md-3 d-flex align-items-center">
-        <div class="input-group input-group-outline">
-          <label class="form-label">搜索</label>
-          <input type="text" class="form-control">
-        </div>
+
       </div>
       <ul class="navbar-nav justify-content-end">
         
-          <li class="fixed-plugin-theme-mode nav-item d-flex align-items-center">
-  <a href="javascript:;" class="text-dark px-3 py-2">
-    <i class="material-icons py-1">dark_mode</i>
+          <li class="nav-item d-flex align-items-center">
+  <a href="../pages/sign-in.html" class="text-dark px-3 py-2">
+    <i class="material-icons py-1">search</i>
   </a>
 </li>
 
             
+        
+          <li class="fixed-plugin-theme-mode nav-item d-flex align-items-center">
+  <a href="javascript:switchMode();" class="text-dark px-3 py-2">
+    <i class="material-icons py-1">contrast</i>
+  </a>
+</li>
 
-              <!-- <li class="nav-item d-flex align-items-center">
-                <a href="../pages/sign-in.html" class="nav-link text-body font-weight-bold px-0">
-                  <i class="fa fa-user me-sm-1"></i>
-                  <span class="d-sm-inline d-none">今天天气预报</span>
-                </a>
-              </li> -->
+<script>
+  function switchMode() {
+    let isDark = localStorage.getItem('isDark') === '1';
+    let root = document.documentElement;
+    root.setAttribute('data-theme', isDark ? 'light' : 'dark');
+    localStorage.setItem('isDark', isDark ? '0' : '1');
+  }
+</script>
+
+            
+
               <li class="nav-item d-xl-none ps-3 d-flex align-items-center">
                 <a href="javascript:;" class="nav-link text-body p-0" id="iconNavbarSidenav">
                   <div class="sidenav-toggler-inner">
@@ -237,14 +222,84 @@
   </div>
 </nav>
 
-                <div class="container-fluid py-4 px-5">
+          <div class="container-fluid py-3 px-5">
+            <div class="row mt-4 justify-content-md-center">
+              <div class="col-lg-10 col-md-10 mt-4 mb-4">
+                  <div class="card h-100 p-3">
+  <div class="card-header pb-0">
+    <h6>Orders overview</h6>
+    <p class="text-sm">
+      <i class="fa fa-arrow-up text-success" aria-hidden="true"></i>
+      <span class="font-weight-bold">24%</span> this month
+    </p>
+  </div>
+  <div class="card-body p-3">
+    <div class="timeline timeline-one-side">
+      <div class="timeline-block mb-3">
+        <span class="timeline-step">
+          <i class="material-icons text-success text-gradient">notifications</i>
+        </span>
+        <div class="timeline-content">
+          <h6 class="text-dark text-sm font-weight-bold mb-0">$2400, Design changes</h6>
+          <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">22 DEC 7:20 PM</p>
+        </div>
+      </div>
+      <div class="timeline-block mb-3">
+        <span class="timeline-step">
+          <i class="material-icons text-danger text-gradient">code</i>
+        </span>
+        <div class="timeline-content">
+          <h6 class="text-dark text-sm font-weight-bold mb-0">New order #1832412</h6>
+          <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">21 DEC 11 PM</p>
+        </div>
+      </div>
+      <div class="timeline-block mb-3">
+        <span class="timeline-step">
+          <i class="material-icons text-info text-gradient">shopping_cart</i>
+        </span>
+        <div class="timeline-content">
+          <h6 class="text-dark text-sm font-weight-bold mb-0">Server payments for April</h6>
+          <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">21 DEC 9:34 PM</p>
+        </div>
+      </div>
+      <div class="timeline-block mb-3">
+        <span class="timeline-step">
+          <i class="material-icons text-warning text-gradient">credit_card</i>
+        </span>
+        <div class="timeline-content">
+          <h6 class="text-dark text-sm font-weight-bold mb-0">New card added for order #4395133</h6>
+          <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">20 DEC 2:20 AM</p>
+        </div>
+      </div>
+      <div class="timeline-block mb-3">
+        <span class="timeline-step">
+          <i class="material-icons text-primary text-gradient">key</i>
+        </span>
+        <div class="timeline-content">
+          <h6 class="text-dark text-sm font-weight-bold mb-0">Unlock packages for development</h6>
+          <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">18 DEC 4:54 AM</p>
+        </div>
+      </div>
+      <div class="timeline-block">
+        <span class="timeline-step">
+          <i class="material-icons text-dark text-gradient">payments</i>
+        </span>
+        <div class="timeline-content">
+          <h6 class="text-dark text-sm font-weight-bold mb-0">New order #9583120</h6>
+          <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">17 DEC</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
-                  category
+              </div>
+            </div>
 
-                </div>
+          </div>
 
-                <footer class="footer py-4">
-                  <div class="container-fluid">
+          <footer class="footer py-4">
+            <div class="container-fluid">
   <div class="row align-items-center justify-content-lg-between">
     <div class="col-lg-12 mb-lg-0 mb-4">
 
@@ -265,11 +320,11 @@
   </div>
 </div>
 
-                </footer>
-            </main>
+          </footer>
+      </main>
 
-            
-              <div id="backTop" class="fixed-plugin">
+      
+        <div id="backTop" class="fixed-plugin">
   <a class="fixed-plugin-button text-dark position-fixed px-3 py-2">
     <i class="material-icons py-1">arrow_upward</i>
   </a>
@@ -303,36 +358,31 @@
 
 </script>
 
-                
-        </div>
-
-
-      </div>
-      </div>
-
-      <!-- 雪花特效 -->
-      
-        <script type="text/javascript">
-          // 只在桌面版网页启用特效
-          var windowWidth = $(window).width();
-          if (windowWidth > 768) {
-            document.write('<script type="text/javascript" src="/libs/others/snow.js"><\/script>');
-          }
-        </script>
-        
-
           
-<script src="/libs/materialize-dashboard/js/popper.min.js"></script>
-
+            <!-- 雪花特效 -->
             
-<script src="/libs/materialize-dashboard/js/bootstrap.min.js"></script>
 
-              
-<script src="/libs/materialize-dashboard/js/material-dashboard.js"></script>
+
 
                 
+<script src="/libs/bootstrap/popper.min.js"></script>
+
+                  
+<script src="/libs/bootstrap/bootstrap.min.js"></script>
+
+                      
 <script src="https://kit.fontawesome.com/42d5adcbca.js"></script>
 
-    </body>
+                            
+<script src="/js/input.js"></script>
+
+
+<script src="/js/navbar.js"></script>
+
+
+<script src="/js/sidebar.js"></script>
+
+
+  </body>
 
 </html>

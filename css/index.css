@@ -958,40 +958,40 @@ div[class^=col-] {
   margin-bottom: 5px;
 }
 .page-tag > a:nth-child(1n) {
-  color: #41786e !important;
-  font-size: 1.132rem !important;
+  color: #8e234a !important;
+  font-size: 1.126rem !important;
 }
 .page-tag > a:nth-child(2n) {
-  color: #3af9ad !important;
-  font-size: 1.165rem !important;
+  color: #6ab7c2 !important;
+  font-size: 1.249rem !important;
 }
 .page-tag > a:nth-child(3n) {
-  color: #02764c !important;
-  font-size: 1.291rem !important;
+  color: #9bdc85 !important;
+  font-size: 1.177rem !important;
 }
 .page-tag > a:nth-child(4n) {
-  color: #45e681 !important;
-  font-size: 1.057rem !important;
+  color: #063dc6 !important;
+  font-size: 1.117rem !important;
 }
 .page-tag > a:nth-child(5n) {
-  color: #2f2007 !important;
-  font-size: 1.225rem !important;
+  color: #09dfb1 !important;
+  font-size: 1.207rem !important;
 }
 .page-tag > a:nth-child(6n) {
-  color: #4c7270 !important;
-  font-size: 1.225rem !important;
+  color: #3284b4 !important;
+  font-size: 1.213rem !important;
 }
 .page-tag > a:nth-child(7n) {
-  color: #7f9f30 !important;
-  font-size: 1.09rem !important;
+  color: #54db7a !important;
+  font-size: 1.024rem !important;
 }
 .page-tag > a:nth-child(8n) {
-  color: #329cac !important;
-  font-size: 1.225rem !important;
+  color: #2a1185 !important;
+  font-size: 1.066rem !important;
 }
 .page-tag > a:nth-child(9n) {
-  color: #7a2fea !important;
-  font-size: 1.081rem !important;
+  color: #acc658 !important;
+  font-size: 1.243rem !important;
 }
 .page-card {
   padding: 15px 10px 15px;
